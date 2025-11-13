@@ -13,7 +13,6 @@ This project uses a mixed licensing approach.
 
 [https://mozilla.org/MPL/2.0/](https://mozilla.org/MPL/2.0/)
 
-[https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 #### Disclaimer:
 All the resources shared in this Project are for educational purposes. Remember to carefully assess the usability before using because you alone are responsibile for your actions.
