@@ -1,21 +1,19 @@
-"""
+'''
 Copyright (c) 2025 S V SUDHARSHAN a.k.a PriceCatch.
-visit http://github.com/PriceCatch.
+visit http://github.com/PriceCatch for more code and info.
+Watch my technical analysis videos at https://www.youtube.com/@PriceCatch
 
-This code is part of the PRICECATCH CHARTS project and is
-licensed under the Creative Commons Attribution 4.0 International License.
+Licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 
 Attribution:
-When using this code in your project, please attribute it as follows:
 - The first two lines must be placed in comments at the header of your code.
-- If you are adding the code in a webpage, then, place the below phrase in the footer section
-  of the webpage.
-  PriceCatch Charts by S V SUDHARSHAN a.k.a PriceCatch is licensed under CC BY 4.0
 
+- purpose: 
 - This code will fetch all five minutes bars from FYERS for current day.
-- Code can be run anytime after 3.35PM before start of next trading session.
-"""
+- Code can be run anytime after 3.35PM, but before start of next trading session.
+'''
+
 import shutil
 import time
 from datetime import date, datetime, timedelta
@@ -25,7 +23,7 @@ from fyers_apiv3 import fyersModel
 # Add the directory containing the config file to the system path
 import os
 import sys
-config_path = "/Users/svsud/pythonprojects/all_projects_storage"
+config_path = "/Users/svsud/ta_projects/all_projects_storage"
 if config_path not in sys.path:
     sys.path.append(config_path)
 
